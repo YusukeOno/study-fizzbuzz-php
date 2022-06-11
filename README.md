@@ -15,6 +15,7 @@ docker exec -it study-php-fizzbuzz /bin/bash
 
 ```
 cd /app
+composer install
 php ./src/main.php
 ```
 
