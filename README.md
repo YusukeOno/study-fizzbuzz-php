@@ -8,7 +8,7 @@ Docker and Docker Compose.
 
 ```
 docker compose up -d
-docker exec -it study-php-fizzbuzz /bin/bash
+docker exec -it study-fizzbuzz-php /bin/bash
 ```
 
 ## Exec

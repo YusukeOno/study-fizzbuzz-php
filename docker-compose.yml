@@ -2,7 +2,7 @@ version: '3'
 services:
   php-cli:
     build: ./docker/
-    container_name: study-php-fizzbuzz
+    container_name: study-fizzbuzz-php
     volumes:
       - .:/app
     tty: true
