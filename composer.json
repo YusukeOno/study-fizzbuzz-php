@@ -1,0 +1,16 @@
+{
+    "name": "root/app",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Root\\App\\": "src/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.7",
+        "friendsofphp/php-cs-fixer": "^3.8"
+    }
+}
