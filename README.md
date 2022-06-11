@@ -32,7 +32,7 @@ php ./src/main.php
 ./vendor/bin/phpunit
 ```
 
-設定ファイル ./phpunit.xml
+設定ファイル ./phpunit.xml.dist
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit bootstrap="vendor/autoload.php" colors="true">
