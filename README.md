@@ -63,3 +63,24 @@ parameters:
                 - tests
 ```
 
+## ディレクトリ構成
+
+```
+.
+├── README.md               本ファイル
+├── composer.json           Composerにてパッケージやバージョンを定義されたファイル
+├── composer.lock           composer.jsonを元にインストールされたパッケージが記載されたファイル
+├── docker                  Docker用ディレクトリ
+│   └── Dockerfile              Dockerイメージを作成するためのファイル
+├── docker-compose.yml      複数のDockerコンテナを定義し実行するためのファイル
+├── phpstan.neon            PHPStan設定ファイル
+├── phpunit.xml.dist        PHPUnit設定ファイル
+├── src                     ソースディレクトリ
+│   ├── FizzBuzz.php            FizzBuzz処理が書かれたソースファイル
+│   └── main.php                エントリーポイント
+├── tests                   テストソースディレクトリ
+│   └── FizzBuzzTest.php        FizzBuzz処理のテストが書かれたソースファイル
+└── vendor                  Composerにてインストールされたライブラリ用ディレクトリ
+    ├── autoload.php
+           :
+```
